@@ -24,7 +24,7 @@
         self.backgroundColor = color;
         
         UIImageView *iconImageView = [UIImageView new];
-        iconImageView.image = [icon imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+//        iconImageView.image = [icon imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         iconImageView.tintColor = self.iconColor;
         iconImageView.frame = CGRectMake(0, 0, self.iconStartSize.width, self.iconStartSize.height);
         iconImageView.contentMode = UIViewContentModeScaleAspectFit;
